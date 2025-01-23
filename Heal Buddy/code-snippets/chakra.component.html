@@ -1,0 +1,45 @@
+<div class="chakra-body relative">
+  <app-header
+    class="animate__animated animate__fadeIn"
+    activeElement="chakra"
+  ></app-header>
+  <div class="chakra-container">
+    <!--Header-->
+
+    <div class="chakra-crown space-top">
+      <div class="crown-image text-center">
+        <img src="assets/landing/capa.png" alt="" />
+      </div>
+
+      <h3 class="main-title text-white text-center">Crown Chakra</h3>
+      <p class="light text-center text-white">
+        The crown chakra is linked to every other chakra (and therefore every
+        organ in this system), and so it affects not just all of those organs,
+        but also our brain and nervous system. It is considered the chakra of
+        enlightenment and represents ...
+      </p>
+    </div>
+    <div class="crown-reme space">
+      <h3 class="main-title text-white text-center">Related Meditations</h3>
+      <div class="chakra-slider">
+        <div class="carousel-container">
+          <div class="swiper-p-container">
+            <div class="child">
+              <div class="swiper-paragraph">
+                <app-image-swiper [swiperConfig]="config" [swiperData]="images">
+                  
+                  <ng-template let-item_ #body>
+                     
+                  </ng-template>
+              </app-image-swiper>
+
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
